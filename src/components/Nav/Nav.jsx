@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+
 import React, { useState } from 'react'
 import './Nav.css'
 import {AiOutlineHome} from 'react-icons/ai';
