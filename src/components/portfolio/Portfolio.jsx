@@ -38,10 +38,10 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
             <img src={IMG3} alt="projectImage"></img>
           </div>
-          <h3>Blog Site</h3>
-          <p className='paragraph text-light'>A website where people can post their articles/blogs and share with the relevant audience.</p>
+          <h3>Time To Geek</h3>
+          <p className='paragraph text-light'>A website where people can post their tech articles/blogs and share with the relevant audience.</p>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com/MuskanGarg24/Blog-Site.git' className='btn'>Github</a>
+            <a href='https://github.com/MuskanGarg24/Time-To-Geek.git' className='btn'>Github</a>
             {/* <a href='' className='btn btn-primary'>Live Demo</a> */}
           </div>
         </article>
