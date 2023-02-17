@@ -4,6 +4,7 @@ import './Portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 
 const Portfolio = () => {
   return (
@@ -14,13 +15,13 @@ const Portfolio = () => {
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-            <img src={IMG1} alt="projectImage"></img>
+            <img src={IMG4} alt="projectImage"></img>
           </div>
-          <h3>News Hub</h3>
-          <p className='paragraph text-light'>A short news web app that aggregates the latest news from various sources.</p>
+          <h3>Landing Page</h3>
+          <p className='paragraph text-light'>The user interface and visual design for a landing page.</p>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com/MuskanGarg24/News-Hub' className='btn'>Github</a>
-            <a href='https://newzzzhub.netlify.app/' className='btn btn-primary'>Live Demo</a>
+            <a href='https://github.com/MuskanGarg24/Landing-Page' className='btn'>Github</a>
+            <a href='https://testing-landing-page.netlify.app/' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -32,6 +33,17 @@ const Portfolio = () => {
           <div className='portfolio_item-cta'>
             <a href='https://github.com/MuskanGarg24/Crypto-Tracker' className='btn'>Github</a>
             <a href='https://track-crypto-status.netlify.app/' className='btn btn-primary'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'>
+            <img src={IMG1} alt="projectImage"></img>
+          </div>
+          <h3>News Hub</h3>
+          <p className='paragraph text-light'>A short news web app that aggregates the latest news from various sources.</p>
+          <div className='portfolio_item-cta'>
+            <a href='https://github.com/MuskanGarg24/News-Hub' className='btn'>Github</a>
+            <a href='https://newzzzhub.netlify.app/' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>

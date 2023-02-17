@@ -21,12 +21,11 @@ const About = () => {
             <p>
               Hey there!
               <br /><br />
-              I am Muskan Garg and I am pursuing B.Tech in Information Technology from Maharaja Agrasen Institute Of Technology,  Delhi . I am a Full Stack Web Developer.<br /><br />
-              Currently, I am working on my Data Structures and Algorithms skills. I am passionate about learning new technologies and I believe in gaining new skills and experiences from working on projects.
+              My name is Muskan Garg, and I am a driven second-year B.Tech. in Information Technology student at MAIT Delhi. I am passionate about software development and have worked as a full-stack developer intern to gain hands-on experience in the field. 
               <br /><br />
-              Teamwork and never stop learning attitude towards everything defines me.
+              I am eager to apply my abilities and further develop my professional experience through various opportunities. My professional attitude is defined by my strong teamwork ethic and a constant desire to learn and grow.
             </p>
-            <HeaderSocials/>
+            <HeaderSocials />
           </div>
         </div>
       </section>
