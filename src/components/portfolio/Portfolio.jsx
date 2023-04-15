@@ -5,6 +5,8 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 
 const Portfolio = () => {
   return (
@@ -13,6 +15,28 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className='container portfolio_container'>
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'>
+            <img src={IMG5} alt="projectImage"></img>
+          </div>
+          <h3>KwikFood</h3>
+          <p className='paragraph text-light'> Developed a web-based online canteen platform for universities to offer a seamless food ordering experience to users</p>
+          <div className='portfolio_item-cta'>
+            <a href='https://github.com/MuskanGarg24/KwikFood-Online-Canteen' className='btn'>Github</a>
+            <a href='https://youtu.be/gg5Y4RZiO-8' className='btn btn-primary'>Video Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'>
+            <img src={IMG6} alt="projectImage"></img>
+          </div>
+          <h3>SocioAid</h3>
+          <p className='paragraph text-light'>A web-based platform to help users overcome social anxiety and build confidence</p>
+          <div className='portfolio_item-cta'>
+            <a href='https://github.com/MuskanGarg24/SocioAid' className='btn'>Github</a>
+            <a href='https://www.youtube.com/watch?v=xJjl3OfhHtY' className='btn btn-primary'>Video Demo</a>
+          </div>
+        </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
             <img src={IMG4} alt="projectImage"></img>
