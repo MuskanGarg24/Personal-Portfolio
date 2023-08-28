@@ -17,6 +17,27 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
+            <img src={IMG1} alt="projectImage"></img>
+          </div>
+          <h3>User Dashboard</h3>
+          <p className="paragraph text-light">
+            {" "}
+            This project aims to create a dynamic user profile page with two main sections: Profile and Connections.
+          </p>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/MuskanGarg24/User-Dashboard"
+              className="btn"
+            >
+              Github
+            </a>
+            <a href="https://oruphones-assignment-chi.vercel.app/" className="btn btn-primary">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={IMG5} alt="projectImage"></img>
           </div>
           <h3>KwikFood</h3>
@@ -99,27 +120,6 @@ const Portfolio = () => {
             </a>
             <a
               href="https://track-crypto-status.netlify.app/"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="projectImage"></img>
-          </div>
-          <h3>News Hub</h3>
-          <p className="paragraph text-light">
-            A short news web app that aggregates the latest news from various
-            sources.
-          </p>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/MuskanGarg24/News-Hub" className="btn">
-              Github
-            </a>
-            <a
-              href="https://newzzzhub.netlify.app/"
               className="btn btn-primary"
             >
               Live Demo
